@@ -62,5 +62,13 @@ body::before {
   border: 2px solid orange;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 100;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: calc(15vw - 65px);
+}
+
+.right-arrow {
+  right: calc(15vw - 65px);
 }
